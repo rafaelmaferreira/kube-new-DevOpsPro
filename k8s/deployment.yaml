@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: rafaferreira011/kube-news:2
+          image: rafaferreira011/kube-news:v${{ github.run_number }}
           ports:
           - containerPort: 8080
           env:
